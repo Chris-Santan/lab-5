@@ -1,10 +1,10 @@
 package use_case.logout;
 
 /**
- * The Input Data for the Logout Use Case.
+ * Input data for the Logout Use Case.
  */
 public class LogoutInputData {
-    private String username;
+    private final String username;
 
     public LogoutInputData(String username) {
         this.username = username;
@@ -13,5 +13,4 @@ public class LogoutInputData {
     public String getUsername() {
         return username;
     }
-
 }
